@@ -20,26 +20,25 @@ export default function EmojiPicker({ isVisible, children, onClose }) {
 
 const styles = StyleSheet.create({
   modalContent: {
-    height: '25%',
+    height: '40%',
     width: '100%',
-    backgroundColor: '#25292e',
-    borderTopRightRadius: 18,
-    borderTopLeftRadius: 18,
+    backgroundColor: '#aaa',
+    borderTopRightRadius: 25,
+    borderTopLeftRadius: 25,
     position: 'absolute',
     bottom: 0,
   },
   titleContainer: {
-    height: '16%',
-    backgroundColor: '#464C55',
-    borderTopRightRadius: 10,
-    borderTopLeftRadius: 10,
-    paddingHorizontal: 20,
+    height: '30%',
+    borderTopRightRadius: 25,
+    borderTopLeftRadius: 25,
+    paddingHorizontal: 25,
     flexDirection: 'row',
     alignItems: 'center',
     justifyContent: 'space-between',
   },
   title: {
-    color: '#fff',
+    color: '#333',
     fontSize: 16,
   },
   pickerContainer: {
